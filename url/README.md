@@ -46,6 +46,6 @@ app.listen(3000);
 - `var queryData = url.parse(_url, true).query;`
   - `url.parse().query `:
     - 요청된 url 값을 parse 하여 query object를 추출한다.
-    - `Localhost:3000/id=HTML` 이라는 url 로 요청하였을 때 : 
+    - `localhost:3000/?id=HTML` 이라는 url 로 요청하였을 때 : 
       - `console.log(queryData)`의 결과물은 `{ id: 'HTML' }`
       - `console.log(queryData.id)`의 결과물은 `HTML`
