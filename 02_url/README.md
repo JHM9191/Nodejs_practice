@@ -7,7 +7,7 @@
   - path 뒤에 물음표 다음으로 오는 글자
   - 웹서버에 데이터를 보낼 때 사용된다.
 
-  
+
 
 
 
@@ -31,7 +31,7 @@ var app = http.createServer(function(request,response){
       return;
     }
     response.writeHead(200);
-    response.end(queryData.id); 
+    response.end(queryData.id);
 
 });
 app.listen(3000);
@@ -43,9 +43,12 @@ app.listen(3000);
 - `var url = require('url');`
   - url이라는 모듈을 url이라는 이름으로 사용한다는 것이다.
 
+- module
+  - node.js가 제공하고 있는 기능들을 그룹핑 해놓은 각각의 그룹
+
 - `var queryData = url.parse(_url, true).query;`
   - `url.parse().query `:
     - 요청된 url 값을 parse 하여 query object를 추출한다.
-    - `localhost:3000/?id=HTML` 이라는 url 로 요청하였을 때 : 
+    - `localhost:3000/?id=HTML` 이라는 url 로 요청하였을 때 :
       - `console.log(queryData)`의 결과물은 `{ id: 'HTML' }`
       - `console.log(queryData.id)`의 결과물은 `HTML`
