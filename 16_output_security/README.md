@@ -39,7 +39,7 @@
 ### sanitize-html 모듈 설치하기
 
 - ```bash
-npm init
+  npm init
   ```
 
   - 어플리케이션을 npm으로 관리하기 위한 절차가 시작된다.
