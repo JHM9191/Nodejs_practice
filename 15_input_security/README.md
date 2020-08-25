@@ -8,7 +8,7 @@
 
 - 주소창을 통해 사용자가 프로젝트 상위 폴더에 접근하지 못하도록 해주고 싶을때 사용된다.
 
-- Password.js 라는 파일에 비밀번호와 같은 노출되면 안되는 정보가 담겨있는 객체가 있다고 할 때, 
+- Password.js 라는 파일에 비밀번호와 같은 노출되면 안되는 정보가 담겨있는 객체가 있다고 할 때,
 
   - ```javascript
     module.exports = {
@@ -25,7 +25,7 @@
 
   - ```javascript
     var filteredId = path.parse(queryData.id).base;
-              fs.readFile(`data/${filteredId}`, 'utf8', function(err, 		 description){
+              fs.readFile(`data/${filteredId}`, 'utf8', function(err, description){
                 var title = queryData.id;
                 var list = template.list(filelist);
                 var html = template.HTML(title, list,
@@ -39,7 +39,7 @@
                 );
     ```
 
-- 코드 수정 결과: 
+- 코드 수정 결과:
   - ![after](./img/after.png)
   - password.js의 내용을 더이상 출력하지 않는 것을 볼 수 있다.
 

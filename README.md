@@ -25,8 +25,8 @@
 12. [패키지 매니저와 PM2](https://github.com/JHM9191/Nodejs_practice/tree/master/12_npm_pm2)
 13. [객체를 이용해서 정리 정돈하기](https://github.com/JHM9191/Nodejs_practice/tree/master/13_using_object)
 14. [함수를 이용해서 정리 정돈 하기](https://github.com/JHM9191/Nodejs_practice/tree/master/14_using_module)
-15. [입력 정보에 대한 보안](#)
-16. [출력 정보에 대한 보안](#)
+15. [입력 정보에 대한 보안](https://github.com/JHM9191/Nodejs_practice/tree/master/15_input_security)
+16. [출력 정보에 대한 보안](https://github.com/JHM9191/Nodejs_practice/tree/master/16_output_security)
 
 ---
 
