@@ -2,9 +2,7 @@
 
 - 출력정보에서 발생할 수 있는 보안적인 이슈
 
-
-
-
+​            
 
 - 만약에 텍스트를 입력하는 `textarea`에 다음과 같이 넣었다고 하자.
 
@@ -23,7 +21,7 @@
 - 입력 받은 코드가 실행 되지 않도록 제한시켜주어야 한다.
 - 이미 누군가가 만들어 놓은 모듈을 활용해 볼 수 있다.
 
-
+​              
 
 ### sanitize-html 모듈
 
@@ -54,7 +52,7 @@
 
     <img src="./img/node_modules.png" alt="node_modules" style="zoom:50%;" />
 
-
+​             
 
 - ```javascript
   var sanitizedTitle = sanitizeHtml(title);
@@ -62,6 +60,8 @@
 
   -  ![python_merong](./img/python_merong.png)
   -  ![python_merong_2](./img/python_merong_2.png)
+
+​              
 
 - ```javascript
    var sanitizedDescription = sanitizeHtml(description, {
@@ -73,9 +73,9 @@
   - ![h1_tag](./img/h1_tag.png)
   - ![h1_tag_2](./img/h1_tag_2.png)
 
-​        
+​                 
 
-- 전체코드
+### 전체코드
 
 ```javascript
 var http = require('http');
